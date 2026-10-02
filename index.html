@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành định kiểu bảng bằng CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page-shell">
+        <header class="page-header">
+            <p class="eyebrow">CSS TABLE STYLING</p>
+            <h1>Định kiểu cho bảng HTML</h1>
+            <p>Khám phá cách sử dụng đường viền, căn chỉnh, khoảng cách và màu sắc trong bảng.</p>
+        </header>
+
+        <section class="table-card">
+            <div class="table-heading">
+                <div>
+                    <p class="eyebrow">BẢNG MINH HỌA</p>
+                    <h2>Lịch học lập trình Web</h2>
+                </div>
+                <span class="badge">width: 100%</span>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <caption>Lịch học các chủ đề nền tảng</caption>
+                    <thead>
+                        <tr>
+                            <th>Ngày</th>
+                            <th>Chủ đề</th>
+                            <th>Thời lượng</th>
+                            <th>Ghi chú</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Thứ 2</td>
+                            <td>HTML cơ bản</td>
+                            <td>2 giờ</td>
+                            <td>Ôn lại cấu trúc trang web</td>
+                        </tr>
+                        <tr>
+                            <td>Thứ 3</td>
+                            <td>CSS và Box Model</td>
+                            <td>2 giờ</td>
+                            <td>Thực hành màu sắc, khoảng cách</td>
+                        </tr>
+                        <tr class="tall-row">
+                            <td>Thứ 4</td>
+                            <td>Thiết kế bảng</td>
+                            <td>3 giờ</td>
+                            <td>vertical-align: bottom<br>padding: 16px</td>
+                        </tr>
+                        <tr>
+                            <td>Thứ 5</td>
+                            <td>Danh sách HTML</td>
+                            <td>2 giờ</td>
+                            <td>list-style-type và list-style-image</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="property-grid">
+            <article>
+                <span class="property-number">01</span>
+                <h3>Đường viền</h3>
+                <code>border: 1px solid #b9c8d8;</code>
+                <p>Tạo đường viền rõ ràng cho bảng, tiêu đề và ô dữ liệu.</p>
+            </article>
+            <article>
+                <span class="property-number">02</span>
+                <h3>Gộp đường viền</h3>
+                <code>border-collapse: collapse;</code>
+                <p>Gộp các đường viền liền kề thành một đường duy nhất.</p>
+            </article>
+            <article>
+                <span class="property-number">03</span>
+                <h3>Căn chỉnh</h3>
+                <code>text-align · vertical-align</code>
+                <p>Điều chỉnh vị trí nội dung theo chiều ngang và chiều dọc.</p>
+            </article>
+            <article>
+                <span class="property-number">04</span>
+                <h3>Khoảng cách</h3>
+                <code>padding: 16px;</code>
+                <p>Tạo không gian thoáng giữa nội dung và đường viền ô.</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
